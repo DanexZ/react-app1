@@ -1,6 +1,5 @@
 const currentTask = process.env.npm_lifecycle_event
 const path = require("path")
-const webpack = require('webpack');
 const Dotenv = require("dotenv-webpack")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const HtmlWebpackHarddiskPlugin = require("html-webpack-harddisk-plugin")
